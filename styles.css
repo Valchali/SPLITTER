@@ -1,0 +1,85 @@
+body{
+    background-color: hsl(185, 41%, 84%)
+
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    width:  63rem;
+    height:34rem;
+    /* padding: 10px; */
+    
+}
+
+.below1{
+    width: 22rem;
+    height: 19rem;
+    margin-top: 6rem; 
+
+}
+
+.below2{
+    background-color: hsl(183, 100%, 15%);
+    width: 33rem;
+    height: 25rem;
+    margin-top: 4rem;
+    border-radius: 15px 15px;
+    
+}
+
+.container{
+    display: flex;
+    gap: 80px;
+    margin-top: 5rem;
+    
+}
+
+.RESET{
+    background-color: hsl(185, 51%, 70%);
+    width: 15rem;
+    height: 2.1rem;
+    color:hsl(183, 100%, 15%);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9px 9px;
+    border-color: hsl(185, 51%, 70%);
+    cursor: pointer;
+    margin-top:4rem;
+}
+
+.below2 h6{
+    color: hsl(0, 0%, 100%);
+}
+
+.below2 p{
+    color:hsl(186, 14%, 43%)
+}
+
+.tip1{
+    display: flex;
+}
+
+.tip2{
+    padding: 1.5rem;
+}
+
+
+.money-input-container{
+    margin-top: 3rem;
+    padding-left: 7rem;
+   
+}
+
+.total-1{
+    display: flex;
+}
+
+.total-2{
+    padding: 1.5rem;
+}
+
+.money-input-container2{
+    margin-top: 3rem;
+    padding-left: 7rem;
+}

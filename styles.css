@@ -9,6 +9,8 @@ main{
     width:  63rem;
     height:34rem;
     /* padding: 10px; */
+    margin-left: 15rem;
+    border-radius: 20px 20px;
     
 }
 
@@ -45,7 +47,8 @@ main{
     border-radius: 9px 9px;
     border-color: hsl(185, 51%, 70%);
     cursor: pointer;
-    margin-top:4rem;
+    /* margin-bottom:4rem; */
+    margin-left: 6rem;
 }
 
 .below2 h6{
@@ -61,7 +64,7 @@ main{
 }
 
 .tip2{
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 
@@ -76,10 +79,63 @@ main{
 }
 
 .total-2{
-    padding: 1.5rem;
+    padding: 1.3rem;
 }
 
 .money-input-container2{
     margin-top: 3rem;
     padding-left: 7rem;
+}
+
+.button1 {
+    display: flex;
+    gap: 20px; /* Adjust the value as needed */
+    justify-content: center;
+}
+
+.button2{
+    display: flex;
+    gap: 20px; /* Adjust the value as needed */
+    justify-content: center;
+    margin-top: 1.5rem;
+
+}
+
+.button1 button {
+    width: 65px; /* Set width of the buttons */
+    height: 40px; /* Set height of the buttons */
+    font-size: 16px; /* Adjust font size if needed */
+    text-align: center; /* Center text horizontally */
+    line-height: 40px; /* Vertically center text */
+    padding: 0; /* Remove default padding */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    background-color: hsl(183, 100%, 15%); /* Button background color */
+    cursor: pointer; /* Cursor style on hover */
+    color:hsl(0, 0%, 100%);
+}
+
+.button2 button{
+    width: 65px; /* Set width of the buttons */
+    height: 40px; /* Set height of the buttons */
+    font-size: 16px; /* Adjust font size if needed */
+    text-align: center; /* Center text horizontally */
+    line-height: 40px; /* Vertically center text */
+    padding: 0; /* Remove default padding */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    background-color: hsl(183, 100%, 15%);/* Button background color */
+    cursor: pointer; /* Cursor style on hover */
+    color:hsl(0, 0%, 100%);
+}
+
+.billing{
+    margin-right: 7.9rem;
+}
+
+.tip{
+    margin-right:5rem;
+}
+.People-num{
+    margin-right: 3rem;
 }

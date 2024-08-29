@@ -1,0 +1,176 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    margin: 0;
+    font-family: "Space Mono", monospace;
+}
+.logo {
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+}
+label, input {
+    display: block;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.bill {
+    background-image: url(./images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 0.3rem;
+    text-align: right;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: larger;
+    color: hsl(183, 100%, 15%);
+    margin-bottom: 1rem;
+}
+.bill:focus{
+    border: solid 2px hsl(172, 67%, 45%);
+    outline: hsl(172, 67%, 45%);
+}
+.people {
+    background-image: url(./images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 0.3rem;
+    text-align: right;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: larger;
+    color: hsl(183, 100%, 15%);
+}
+.people:focus{
+    border: solid 2px hsl(172, 67%, 45%);
+    outline: hsl(172, 67%, 45%);
+}
+.btns-container{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btns{
+    width: 45%;
+    max-width: 50%;
+    margin: 0.4rem;
+}
+
+.btn {
+    border: none;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    font-family: "Space Mono", monospace;
+    font-size: large;
+    border-radius: 0.3rem;
+
+}
+.btn:hover {
+    background-color: hsl(172, 67%, 45%);
+}
+.btn-inpt {
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    padding: 0.5rem;
+    font-family: "Space Mono", monospace;
+    font-size: large;
+    border-radius: 0.3rem;
+    width: 47%;
+    display: inline-block;
+}
+.output_box{
+    margin: 1rem auto;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.pp {
+    color: hsl(185, 41%, 84%);
+    font-size: small;
+}
+.resetbtn {
+    padding: .5rem;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(186, 14%, 43%);
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: large;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: .3rem;
+}
+.resetbtn:hover {
+    background-color: hsl(172, 67%, 45%);
+}
+.tipnumber {
+    font-size: 25px;
+}
+.totalnumber {
+    font-size: 25px;
+}
+.dollar {
+    padding: 0 .5rem;
+}
+
+.active{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+
+}
+
+.attribution{
+    text-align: center;
+}
+
+@media (min-width: 800px){
+
+    .container{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        border-radius: 1rem;
+
+    }
+
+    .output_box{
+        width: 50%;
+    }
+    .btns {
+        width: 30%;
+    }
+    .bill {
+        width: 90%;
+    }
+    .people {
+        width: 90%;
+    }
+
+    .ta {
+        display: flex;
+        justify-content: space-between;
+    }
+    .resetbtn {
+        margin-top: 3rem;
+    }
+}

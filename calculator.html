@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="stylez.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script defer src="./cal.js"></script>
+  <title>Tip calculator app</title>
+
+</head>
+<body>
+<main class="main">
+  <img src="./images/logo.svg" alt="logo" class="logo">
+  <div class="container"> 
+      <div class="input-section">
+        <label for="Bill">Bill</label>
+        <input type="number" placeholder="0" id="bill" class="bill">
+
+
+
+        <label for="btns-container">Select Tip %</label>
+
+        <div class="btns-container">
+            <div class="btns">
+              <button class="btn"><span class="tip">5</span>%</button>
+            </div>
+            <div class="btns">
+              <button class="btn"><span class="tip">10</span>%</button>
+            </div>
+            <div class="btns">
+              <button class="btn"><span class="tip">15</span>%</button>
+            </div>
+            <div class="btns">
+              <button class="btn"><span class="tip">20</span>%</button>
+            </div>
+            <div class="btns">
+              <button class="btn"><span class="tip">50</span>%</button>
+            </div>
+            <div class="btns custom-input">
+              <input type="text" placeholder="Custom" id="custom-tip" class="btn-inpt">
+            </div>
+        </div>
+
+
+
+          <label for="people">Number of people</label>
+        <input type="number" placeholder="1" id="people" class="people">
+        <!-- <img src="./images/icon-person.svg"> -->
+       </div>
+  <div class="output_box">
+    <div class="ta">
+  <p>Tip Amount
+  <span class="pp"><br />
+    / person</span>
+</p>
+<p><img src="./images/icon-dollar.svg" alt="dollar" class="dollar"><span class="tipnumber">0.00</span></p></div>
+<div class="ta"> 
+<p> Total
+  <span class="pp"><br />
+     / person</span>
+</p>
+<p><img src="./images/icon-dollar.svg" alt="dollar" class="dollar"><span class="totalamount">0.00</span></p></div>
+  <button class="resetbtn" id="resetbtn">Reset</button>
+</div>
+</div> 
+</div>
+</main>
+<footer>
+  <div  class="attribution">
+ <p> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://www.linkedin.com/in/chali-andrew-327030114" target="_blank">Chali Andrew</a></p>
+  </div>
+</footer>
+</body>
+</html>
